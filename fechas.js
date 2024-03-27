@@ -15,3 +15,4 @@ console.log("");
 fecha.setFullYear(2000);
 console.log("fecha.setFullYear(2000)", fecha.toString());
 console.log(fecha.setFullYear(2013));
+console.log("fecha.setFullYear(2013)", fecha.toString());
