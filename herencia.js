@@ -29,6 +29,7 @@ class Electrodomestico {
 }
 class Lavadora extends Electrodomestico {
   constructor() {
+    //Importante, super() llama al constructor de la clase padre, es decir llama al cosntructofr de la clase que hereda (Electrodomestico)
     super();
     this._RPM = 0;
     this._Kilos = 0;
