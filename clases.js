@@ -1,5 +1,5 @@
 //Vemos las clases
-//Clase que representa un punti
+//Clase que representa un punto
 class Punto {
   constructor(X, Y) {
     this.X = X;
@@ -51,8 +51,8 @@ punto3.mostrarPunto3();
 console.log("Coordenada X = %s", punto3.X);
 console.log("Coordenada Y = %s", punto3.Y);
 console.log(" -- Modificamos los puntos --");
-console.log("punto3.X = 4", (punto3.X = 4));
-console.log("punto3.Y = 4", (punto3.Y = 4));
+console.log("punto3.X = ", (punto3.X = 4));
+console.log("punto3.Y = ", (punto3.Y = 4));
 punto3.mostrarPunto3();
 console.log("Coordenada X = %s", punto3.X);
 console.log("Coordenada Y = %s", punto3.Y);
