@@ -1,4 +1,8 @@
 //Vamos a ver la composicion
+//La composicion es un concepto que nos permite crear objetos complejos a partir de otros objetos mas simples
+//En este caso vamos a crear un triangulo a partir de 3 puntos
+//Cada punto es un objeto simple que tiene una X y una Y
+
 class Punto {
   constructor(X, Y) {
     this._X = X;
