@@ -28,11 +28,11 @@ class Electrodomestico {
   }
 }
 class Lavadora extends Electrodomestico {
-  constructor() {
+  constructor(rpm, kilos, encendido, tension) {
     //Importante, super() llama al constructor de la clase padre, es decir llama al cosntructofr de la clase que hereda (Electrodomestico)
-    super();
-    this._RPM = 0;
-    this._Kilos = 0;
+    super(encendido, tension);
+    this._RPM = rpm;
+    this._Kilos = kilos;
   }
   get RPM() {
     return this._RPM;
@@ -62,7 +62,7 @@ class Lavadora extends Electrodomestico {
     console.log(" ------- Fin de los datos de la lavadora");
   }
 }
-let l = new Lavadora();
+let l = new Lavadora(1200, 6, false, 220);
 l.Mostrar();
 console.log("Encendemos la lavadora", l.Encender());
 console.log("Cambiamos la tensión de la lavadora a 110", (l.Tension = 110));
