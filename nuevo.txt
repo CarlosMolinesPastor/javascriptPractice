@@ -1,0 +1,4 @@
+
+Esto es un ejemplo de texto a insertar en un documento llamado nuevo.txt
+Esto es un texto4 añadido al final del fichero
+Esto es un texto5 añadido al final del ficheroAnadido mediante writeFileSync(archivo, linea, {flag: 'a+'})

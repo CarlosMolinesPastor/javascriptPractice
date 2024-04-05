@@ -1,0 +1,4 @@
+Este es un fichero de texto plano
+El proposito de estos archivos es el aprendizaje de javascript
+Viva el javascript
+
